@@ -30,13 +30,13 @@ $right-sidebar-width-narrow: 280px;
 /* 电脑端照片 */
 @include breakpoint($large) {
   .author__avatar {
-    width: 240px;
+    width: 200px;
     max-width: 100%;
     height: auto;
   }
 
   .author__avatar img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
 }
