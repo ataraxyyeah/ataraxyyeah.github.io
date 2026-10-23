@@ -123,10 +123,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "ataraxyyeah78@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       # url: "https://twitter.com/"
@@ -135,10 +132,17 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ataraxyyeah"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/chenyu_wang04/?hl=en"
+     - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/%E6%99%A8%E5%AE%87-%E7%8E%8B-1638463bb/?isSelfProfile=true"
+
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=rwF4PXcAAAAJ&hl=zh-CN"
 
 # Site Footer
 footer:
