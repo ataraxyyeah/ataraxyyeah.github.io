@@ -1,18 +1,42 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* 加宽侧栏，给照片留出空间 */
+$right-sidebar-width-narrow: 280px;
 
-/* 调整电脑端头像大小 */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* 手机端照片 */
+.author__avatar {
+  width: 80px;
+  height: auto;
+}
+
+.author__avatar img {
+  display: block;
+  width: 80px;
+  max-width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 电脑端照片 */
 @include breakpoint($large) {
-  .author__avatar img {
-    width: 180px;
+  .author__avatar {
+    width: 240px;
     max-width: 100%;
     height: auto;
+  }
+
+  .author__avatar img {
+    width: 100%;
+    height: 300px;
   }
 }
