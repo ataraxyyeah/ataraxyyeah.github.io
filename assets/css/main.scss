@@ -7,3 +7,12 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 调整电脑端头像大小 */
+@include breakpoint($large) {
+  .author__avatar img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+  }
+}
