@@ -121,9 +121,6 @@ author:
   email            : "ataraxyyeah78@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:ataraxyyeah78@gmail.com"
 
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
